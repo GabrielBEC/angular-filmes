@@ -5,6 +5,7 @@ export const FILMES: Filme[] = [
         id: 1,
         data: "08/07/2021",
         nome: "Viúva Negra",
+        logo: "https://www.themoviedb.org/t/p/original/s99FaUc5P1D0ZDj0c1fSPWgyiaw.png",
         capaUrl: "https://www.themoviedb.org/t/p/w1280/rKq1Vlw0Bqe2EEvdmIkkkgPQAGf.jpg",
         bannerUrl: "https://www.themoviedb.org/t/p/original/zt1xPcceJ8aHmdFMCwjhJN3USaN.jpg",
         descricao: 'Natasha Romanoff "Viúva Negra" precisa confrontar partes de sua história quando surge uma conspiração perigosa ligada ao seu passado. Perseguida por uma força que não irá parar até derrotá-la, Natasha terá que lidar com sua antiga vida de espiã, e também reencontrar membros de sua família que deixou para trás antes de se tornar parte dos Vingadores.'
@@ -12,6 +13,7 @@ export const FILMES: Filme[] = [
     {
         id: 2,
         data: "26/08/2021",
+        logo: "https://www.themoviedb.org/t/p/original/9yPky95ItCuLVqPYVE4vZRRi3Px.png",
         nome: "Uma Noite de Crime 5: A Fronteira",
         capaUrl: "https://www.themoviedb.org/t/p/w1280/4xmrtSLRaqzmE1TLQYNGHnuvJrf.jpg",
         bannerUrl: "https://www.themoviedb.org/t/p/original/xZREWTHWpKlgpYtA6LsNeReUOcj.jpg",
@@ -20,6 +22,7 @@ export const FILMES: Filme[] = [
     {
         id: 3,
         data: "28/05/2021",
+        logo: "https://www.themoviedb.org/t/p/original/rEWwUgWQz6QHRiUqflBgYrIJHeb.png",
         nome: "Cruella",
         capaUrl: "https://www.themoviedb.org/t/p/w1280/ljPHd7WiPVKmuXi1hgQUpZQslbC.jpg",
         bannerUrl: "https://www.themoviedb.org/t/p/original/nt21xmsQ8Jah6FJWE2MHGfyTJLg.jpg",
