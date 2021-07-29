@@ -8,6 +8,7 @@ import { HomeComponent } from './component/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FilmesComponent } from './component/filmes/filmes.component';
 import { ContatoComponent } from './component/contato/contato.component';
+import { CardFilmeComponent } from './component/filmes/card-filme/card-filme.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContatoComponent } from './component/contato/contato.component';
     FooterComponent,
     HomeComponent,
     FilmesComponent,
-    ContatoComponent
+    ContatoComponent,
+    CardFilmeComponent
   ],
   imports: [
     BrowserModule,

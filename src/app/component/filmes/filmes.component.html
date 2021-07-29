@@ -1,1 +1,5 @@
-<p>filmes works!</p>
+<div class="mt-2">
+    <div class="row row-cols-3 justify-content-center gap-2">
+        <app-card-filme class="card p-2 col" *ngFor="let filme of filmes" [filme]="filme" ></app-card-filme>
+    </div>
+</div>
