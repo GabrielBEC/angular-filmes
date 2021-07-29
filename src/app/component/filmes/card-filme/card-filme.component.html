@@ -1,6 +1,8 @@
 <section *ngIf="filme" >
-    <img [src]="filme.capaUrl" alt="" width="100%" height="400px">
+    <a routerLink="/filme/{{filme.id}}" >
+        <img [src]="filme.capaUrl" alt="" width="100%" height="400px" >
+    </a>
     <div class="card-body">
         <h5 class="card-title text-center"> {{ filme.nome }} </h5>
-      </div>
+    </div>
 </section>

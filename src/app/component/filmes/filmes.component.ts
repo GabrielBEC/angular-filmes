@@ -15,7 +15,6 @@ export class FilmesComponent implements OnInit {
 
   ngOnInit(): void {
     this.getFilmes()
-    console.log(this.filmes)
   }
 
   getFilmes(): void {

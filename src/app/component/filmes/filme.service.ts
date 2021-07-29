@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
 import { Filme } from './filme';
 import { FILMES } from './mock-filmes';
 
@@ -11,5 +12,10 @@ export class FilmeService {
 
   getFilmes(): Filme[] {
     return FILMES
+  }
+
+  getFilme(id: number): Observable<Filme> {
+    const filme = FILMES.find(f => f.id === id)!
+    return of(filme)
   }
 }

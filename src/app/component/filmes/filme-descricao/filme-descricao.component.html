@@ -1,0 +1,16 @@
+<section *ngIf="filme">
+    <picture>
+        <img [src]="filme.bannerUrl" alt="">
+    </picture>
+    <article class="row mt-2">
+        <picture class="col-3">
+            <img [src]="filme.capaUrl" alt="">
+        </picture>
+        <section class="col-9">
+            <h1> {{ filme.nome }} </h1>
+            <p> {{ filme.data }} </p>
+            <h4>Sinopse</h4>
+            <p> {{ filme.descricao }} </p>
+        </section>
+    </article>
+</section>

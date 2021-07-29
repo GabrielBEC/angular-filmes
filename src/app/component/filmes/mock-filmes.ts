@@ -2,18 +2,24 @@ import { Filme } from "./filme";
 
 export const FILMES: Filme[] = [
     {
+        id: 1,
+        data: "08/07/2021",
         nome: "Viúva Negra",
         capaUrl: "https://www.themoviedb.org/t/p/w1280/rKq1Vlw0Bqe2EEvdmIkkkgPQAGf.jpg",
         bannerUrl: "https://www.themoviedb.org/t/p/original/zt1xPcceJ8aHmdFMCwjhJN3USaN.jpg",
         descricao: 'Natasha Romanoff "Viúva Negra" precisa confrontar partes de sua história quando surge uma conspiração perigosa ligada ao seu passado. Perseguida por uma força que não irá parar até derrotá-la, Natasha terá que lidar com sua antiga vida de espiã, e também reencontrar membros de sua família que deixou para trás antes de se tornar parte dos Vingadores.'
     },
     {
+        id: 2,
+        data: "26/08/2021",
         nome: "Uma Noite de Crime 5: A Fronteira",
         capaUrl: "https://www.themoviedb.org/t/p/w1280/4xmrtSLRaqzmE1TLQYNGHnuvJrf.jpg",
         bannerUrl: "https://www.themoviedb.org/t/p/original/xZREWTHWpKlgpYtA6LsNeReUOcj.jpg",
         descricao: "A trama se passará após os eventos de ‘O Ano da Eleição’ e será focada em Adela (Ana de la Reguera) e Juan (Tenoch Huerta), que encontram abrigo em um rancho no Texas, após fugirem de um cartel no México. As coisas dão errado quando um grupo de forasteiros decide continuar purgando além do tempo concedido, quando as pessoas podem violar todas e quaisquer leis."
     },
     {
+        id: 3,
+        data: "28/05/2021",
         nome: "Cruella",
         capaUrl: "https://www.themoviedb.org/t/p/w1280/ljPHd7WiPVKmuXi1hgQUpZQslbC.jpg",
         bannerUrl: "https://www.themoviedb.org/t/p/original/nt21xmsQ8Jah6FJWE2MHGfyTJLg.jpg",

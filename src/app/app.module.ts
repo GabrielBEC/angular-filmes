@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FilmesComponent } from './component/filmes/filmes.component';
 import { ContatoComponent } from './component/contato/contato.component';
 import { CardFilmeComponent } from './component/filmes/card-filme/card-filme.component';
+import { FilmeDescricaoComponent } from './component/filmes/filme-descricao/filme-descricao.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardFilmeComponent } from './component/filmes/card-filme/card-filme.com
     HomeComponent,
     FilmesComponent,
     ContatoComponent,
-    CardFilmeComponent
+    CardFilmeComponent,
+    FilmeDescricaoComponent
   ],
   imports: [
     BrowserModule,
